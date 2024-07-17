@@ -306,6 +306,10 @@ func importMap() -> void:
 
 	VTFTool.clearCache();
 	
+	# LeV73:
+	# find textures in folder and convert them to materials in order to not have blank textures
+	var mc = MaterialCreator.new().material_creator()
+	
 	_clearStructure();
 	_readVMF();
 	_importMaterials();

@@ -14,8 +14,15 @@ export_presets.cfg
 data_*/
 mono_crash.*.json
 
+# Ignores for cleaner download
 *.vmx
-
 test.tscn
-
 addons/texture_checksums.json
+icon.svg
+icon.svg.import
+project.godot
+examples/
+assets/
+.github/
+readme.md
+docs/readme.md
